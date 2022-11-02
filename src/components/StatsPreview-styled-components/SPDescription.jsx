@@ -17,7 +17,7 @@ const Desc = styled.section`
         font-family: 'Inter', sans-serif;
         font-weight: 400;
         font-size: 0.9rem;
-        line-height:  1.6; 
+        line-height:  1.7; 
         padding-right: 7%;
         color: hsla(0, 0%, 100%, 0.75);
     }

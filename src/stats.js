@@ -8,7 +8,7 @@ const stats = [
         subject: "TEMPLATES"
     },
     {
-        number: "10k+",
+        number: "12M+",
         subject: "QUERIES"
     }
 ]
