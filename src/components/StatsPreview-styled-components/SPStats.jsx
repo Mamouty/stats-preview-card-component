@@ -14,6 +14,17 @@ const Status = styled.div`
         color: hsla(0, 0%, 100%, 0.6);  
         margin-top: 5px;
     }
+
+    @media (max-width: 889px) {
+        margin-top: 35%;
+        h1 {
+            font-size: 1.2rem;
+        }
+        p {
+            font-size: 0.6rem;
+        }
+    }
+
 `;
 
 function SPStats(props) {

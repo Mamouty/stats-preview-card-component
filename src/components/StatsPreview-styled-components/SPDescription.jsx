@@ -20,6 +20,18 @@ const Desc = styled.section`
         line-height:  1.7; 
         padding-right: 7%;
         color: hsla(0, 0%, 100%, 0.75);
+
+        
+    }
+
+    @media(max-width: 809px) {
+        h1 {
+            font-size: 1.9rem;
+        }
+        p {
+            font-size: 0.8;
+            line-height: 1.5;
+        }
     }
 
 `;
