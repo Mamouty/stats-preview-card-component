@@ -57,6 +57,19 @@ const Card = styled.article`
         width: 100%;
         height: 100%;
     }
+
+    @media (max-width: 700px) {
+        height: 700px;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 35% 35%;
+        grid-template-areas:
+            "image"
+            "description"
+            "stats"
+        ;
+        text-align: center;
+    }
+
 `;
 
 const Layer = styled.div`
@@ -72,6 +85,18 @@ const Stats = styled.section`
     grid-area: stats;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 700px) {
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        justify-self: center;
+        
+        div {
+            margin: 0;
+        }
+
+    }
 
 
 `;

@@ -1,5 +1,19 @@
 import styled from "styled-components";
 
+function SPDescription() {
+    return(
+        <Desc>
+            <h1>Get <span style={{color: "hsl(277, 64%, 61%)"}}>insights</span> that help your business grow.</h1>
+            <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+  experience, and overall efficiency.</p>
+        </Desc>
+    );
+}
+
+export default SPDescription;
+
+/* ------------------------------Styles------------------------------ */
+
 const Desc = styled.section`
     padding: 7% 13% 5%;
     grid-area: description;
@@ -29,21 +43,21 @@ const Desc = styled.section`
             font-size: 1.9rem;
         }
         p {
-            font-size: 0.8;
+            font-size: 0.8rem;
             line-height: 1.5;
+            padding-right: 0;
         }
     }
 
+    @media(max-width: 700px) {
+        padding: 5% 10%;
+        h1 {
+            font-size: 1.75rem;
+        }
+        p {
+            line-height: 1.7;
+        }
+    }
+
+
 `;
-
-function SPDescription() {
-    return(
-        <Desc>
-            <h1>Get <span style={{color: "hsl(277, 64%, 61%)"}}>insights</span> that help your business grow.</h1>
-            <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.</p>
-        </Desc>
-    );
-}
-
-export default SPDescription;
