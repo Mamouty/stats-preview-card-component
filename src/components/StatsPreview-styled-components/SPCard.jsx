@@ -36,7 +36,7 @@ export default SPCard;
 /* ------------------------------Styles------------------------------ */
 
 const Card = styled.article`
-    height: 420px;
+    height: 440px;
     width: 77%;
     background-color: hsl(244, 38%, 16%);
     border-radius: 7px;
